@@ -18,7 +18,7 @@ export default function Navbar() {
   };
   return (
     <nav className="navbar">
-      <h1>Notebooks</h1>
+      <h1>Notebook</h1>
       <div className="user-info">
         <h4>
           Hello,{" "}
