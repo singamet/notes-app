@@ -67,7 +67,7 @@ export default function SignUp() {
             {isSigningUp ? "SIGNING UP" : "SIGN UP"}
           </button>
           <Link to="/login">Already have an account? Log In</Link>
-          {error && <p>{error}</p>}
+          <div className="error">{error && <p>Sign Up Error</p>}</div>
         </div>
       </div>
       <img src="../images/notebooks.jpg" alt="Sign Up" />

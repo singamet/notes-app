@@ -113,7 +113,9 @@ export default function Login() {
             {isLoggingIn ? "SIGNING IN" : "SIGN IN WITH GOOGLE"}
           </button>
           <Link to="/signup">Don&apos;t have an account? Sign Up</Link>
-          {error && <p>{error}</p>}
+          <div className="error">
+            {error && <p>Invalid Credentials. Try again</p>}
+          </div>
         </div>
       </div>
     </div>

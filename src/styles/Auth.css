@@ -60,3 +60,7 @@ button:hover {
     background-color: transparent;
     color: var(--text-color);
 }
+.error{
+    color: red;
+    font-weight: bold;
+}
